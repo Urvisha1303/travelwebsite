@@ -674,3 +674,44 @@
     background-image: url(./image/p4.jpg); width: 100%;     height: 308px;
                     margin-top: 16px; display: flex; justify-content: end;    background-position: center;
 }
+.client_review_main{
+  width: 100%; height: 570px; background-color: #f4b200;
+}
+.client_review_header{
+  display: flex;justify-content: center;
+            letter-spacing: 2px;
+}
+.client_review_header h4{
+  color: white;padding-top: 90px;
+            text-transform: uppercase;
+            font-size: 48px; 
+}
+
+.review_main{
+  width: 100%; height: 350px; margin-top: 40px; display: flex; justify-content: space-between;
+}
+.review_header{
+  width: 32%; height:350px ;
+}
+.cr1{
+  width: 100%; height: 200px; border-radius: 5px;background-color: #011144;display: flex;
+}
+.cr1 p{
+  color: #ccc;
+                        padding: 50px;
+                        font-size: 14px;
+                        letter-spacing: 2px;
+}
+.cr2{
+  display: flex; justify-content: end;
+}
+.cr2 img{
+  border-radius: 40px;    border: 5px solid #f1bc2e;
+                        width: 50px;
+}
+.cr3{
+  text-align: end;
+                    color: white;
+                    letter-spacing: 1px;
+                    padding-top: 8px;
+}
