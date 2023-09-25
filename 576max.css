@@ -1,15 +1,74 @@
 @media only screen and (max-width: 576px) {
-    .text {
-        flex-direction: column;
-    }
-    .text_left h3 {
-        margin-top: 0;
-    }
-    .main{
-        padding-left: 0px;
-        padding-right: 0px;
-    } 
-    .logo{
-        margin-left: 0;
-    }
+  .main_header {
+    background-position: center;
+  }
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .text {
+    flex-direction: column;
+  }
+.header{
+    display: block;
+    padding-bottom: 0px;
+}
+.text_left{
+    width: 100%;
+}
+
+  .text_left h3 {
+    margin-top: 0;
+    margin-left: 60px;
+    font-size: 35px;letter-spacing: 2px;
+  }
+  
+  .logo {
+    margin-left: 0;
+  }
+
+  .text_left_from i {
+    padding-left: 32%;
+    font-size: 24px;
+  }
+  .text_left_from h1 {
+    padding-left: 3px;
+    font-size: 23px;
+  }
+  .text_left_dollar {
+    padding-top: 6px;
+    padding-left: 39%;
+
+  }
+  .text_left .text_left_dollar h1{
+    font-size: 23px;
+  }
+  .slide{
+    padding-left: 16%;
+    padding-top: 0px;
+  }
+  .text_right{
+    width: 100%;
+    padding-top: 4%;
+    padding-left: 0px;
+  }
+  .text_serach{
+    padding-top: 13px;
+  }
+  .text_search ul{
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .input_right{
+    margin-top: 0px;
+  }
+
+  .input_right input{
+    margin-top: 13px;
+    width: 83%;
+  }
+  .button_right{
+    margin-top: 13px;
+  }
 }
