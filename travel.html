@@ -9,12 +9,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="576max.css">
 </head>
 
 <body>
     <div class="main_header">
         <div style="background: rgb(0 0 0 / 40%); height: 798px">
-            <div class="main">
+            <div id="home" class="main">
                 <div class="contract_number">
                     <i class="fa-solid fa-phone fa-2xs" style="color: #ffffff"></i>+1(21) 234 4567
                 </div>
@@ -24,16 +25,16 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Stats</a></li>
-                            <li><a href="">Testimonials</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#stats">Stats</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="text" style="display: flex">
+                <div class="text">
                     <div class="text_left">
                         <h3>China</h3>
                         <div class="text_left_from">
@@ -43,6 +44,11 @@
                         <div class="text_left_dollar">
                             <i class="fa-solid fa-dollar-sign fa-xl" style="color: #f4b200; font-size: 31px"></i>
                             <h1>1000</h1>
+                        </div>
+                        <div class="slide">
+                            <button></button>
+                            <button></button>
+                            <button></button>
                         </div>
                     </div>
                     <div class="text_right">
@@ -60,16 +66,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide">
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
-                </div>
+                <!-- <div class="slide">
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div> -->
             </div>
         </div>
     </div>
     <div class="some_content">
-        <div class="main">
+        <div id="about" class="main">
             <div class="some_content_header">
                 <div class="some_content_left">
                     <h4>Winter Wonders and Delicious Detours</h4>
@@ -87,7 +93,7 @@
         </div>
     </div>
     <div class="services_main">
-        <div class="main">
+        <div id="services" class="main">
             <div class="service_name">
                 <h4>Our services</h4>
             </div>
@@ -154,7 +160,7 @@
         </div>
     </div>
     <div class="experience">
-        <div class="experience_tour">
+        <div id="stats" class="experience_tour">
             <div class="experience_header">
                 <h1>
                     Years in the field
@@ -306,7 +312,7 @@
                 <h4>Tour Prices</h4>
             </div>
             <div class="price">
-                <div class="country_price">
+                <div class="country_price" style="position: relative;">
                     <h4>China</h4>
                     <div class="china_price">
                         <div class="country_price2">
@@ -346,7 +352,7 @@
         </div>
     </div>
     <div class="client_review_main">
-        <div class="main">
+        <div id="testimonials"  class="main">
             <div class="client_review_header">
                 <h4>Client Reviews</h4>
             </div>
@@ -400,7 +406,7 @@
         </div>
     </div>
     <div class="inquiry_from_main">
-        <div class="main">
+        <div id="contact" class="main">
             <div class="inquiry_from_header">
                 <h4>Get In Touch with us</h4>
             </div>

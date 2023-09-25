@@ -163,16 +163,17 @@
 
 .slide {
   padding-left: 31px;
+  padding-top: 25px;
 }
 
-.slide input {
+.slide button {
   background-color: rgba(255, 255, 255, 0.6);
   border: none;
   width: 20px;
   height: 10px;
 }
 
-.slide input:hover {
+.slide button:hover {
   background-color: #f4b200;
   cursor: pointer;
 }
@@ -966,4 +967,8 @@
 .copy-right a{
   color: #ffffff;
   text-decoration: none;
+}
+@media only screen and (max-width: 576px) {
+  
+  
 }

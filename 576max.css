@@ -1,0 +1,15 @@
+@media only screen and (max-width: 576px) {
+    .text {
+        flex-direction: column;
+    }
+    .text_left h3 {
+        margin-top: 0;
+    }
+    .main{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .logo{
+        margin-left: 0;
+    }
+}
