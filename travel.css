@@ -367,7 +367,7 @@
   width: 48%;
 }
 
-.tour-right_s3 {
+.tour_right_s3 {
   display: flex;
   background-image: url(./image/s3.jpg);
   width: 100%;
@@ -376,7 +376,7 @@
   background-position: center;
 }
 
-.tour-right_s3 h4 {
+.tour_right_s3 h4 {
   font-size: 23px;
   color: white;
   padding-top: 168px;
@@ -431,13 +431,13 @@
   padding-top: 69px;
 }
 
-.experience_header h1 {
+.experience_header > h1 {
   color: white;
   text-transform: uppercase;
   font-size: 45px;
 }
 
-.experience_header p {
+.experience_header > p {
   color: white;
   font-size: 20px;
 }
@@ -448,8 +448,8 @@
   align-items: baseline;
 }
 
-.experience_year h1 {
-  color: #f4b20094;
+.experience_year h2 {
+  color: #f4b200;
   font-size: 40px;
 }
 
@@ -468,6 +468,9 @@
 .travel_group {
   width: 32%;
   height: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .travel_group p {
@@ -489,7 +492,7 @@
   width: 65px;
   height: 65px;
   margin-top: 10px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   border-radius: 37px;
   background-color: #f4b20094;
 }
@@ -556,7 +559,7 @@
 
 .tour_main {
   width: 100%;
-  height: 1300px;
+  height: auto;
 }
 
 .tour_header {
@@ -640,6 +643,7 @@
 .country_price {
   width: 24%;
   height: 350px;
+  position: relative;
 }
 .country_price h4 {
   text-align: center;
@@ -652,10 +656,39 @@
   background-image: url(./image/p1.jpg);
   width: 100%;
   height: 308px;
-  margin-top: 16px;
+  margin-top: 13px;
   display: flex;
   justify-content: end;
   background-position: center;
+}
+.country_price:hover .country_price_hover {
+  display: block;
+  height: 45%;
+}
+.country_price_hover {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: rgba(1, 17, 68, 0.74);
+  text-align: center;
+  width: 100%;
+  height: 0px;
+  transition: 0.5s ease;
+}
+.country_price_hover h3 {
+  color: #ccc;
+  margin-bottom: 23px;
+  margin-top: 46px;
+  font-size: 25px;
+}
+
+.country_price a {
+  text-decoration: none;
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
 }
 
 .country_price2 {
@@ -959,16 +992,12 @@
   color: #a19a9a;
 }
 
-.copy-right{
+.copy-right {
   color: #ccc;
   letter-spacing: 1px;
 }
 
-.copy-right a{
+.copy-right a {
   color: #ffffff;
   text-decoration: none;
-}
-@media only screen and (max-width: 576px) {
-  
-  
 }

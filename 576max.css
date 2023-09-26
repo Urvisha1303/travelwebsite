@@ -1,29 +1,31 @@
 @media only screen and (max-width: 576px) {
   .main_header {
     background-position: center;
+    height: 560px;
   }
   .main {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .text {
     flex-direction: column;
   }
-.header{
+  .header {
     display: block;
     padding-bottom: 0px;
-}
-.text_left{
+  }
+  .text_left {
     width: 100%;
-}
+  }
 
   .text_left h3 {
     margin-top: 0;
     margin-left: 60px;
-    font-size: 35px;letter-spacing: 2px;
+    font-size: 35px;
+    letter-spacing: 2px;
   }
-  
+
   .logo {
     margin-left: 0;
   }
@@ -39,36 +41,227 @@
   .text_left_dollar {
     padding-top: 6px;
     padding-left: 39%;
-
   }
-  .text_left .text_left_dollar h1{
+  .text_left_dollar i {
+    font-size: 27px;
+  }
+  .text_left .text_left_dollar h1 {
     font-size: 23px;
+    padding-left: 2px;
+    letter-spacing: 0px;
   }
-  .slide{
+
+  .slide {
     padding-left: 16%;
     padding-top: 0px;
   }
-  .text_right{
+  .slide button {
+    padding-left: 2px;
+    letter-spacing: 0px;
+    width: 14px;
+    height: 9px;
+  }
+  .text_right {
     width: 100%;
     padding-top: 4%;
     padding-left: 0px;
   }
-  .text_serach{
+  .text_search {
     padding-top: 13px;
+    height: 232px;
   }
-  .text_search ul{
+  .text_search ul {
     font-size: 21px;
     font-weight: 700;
   }
-  .input_right{
+  .input_right {
     margin-top: 0px;
   }
 
-  .input_right input{
+  .input_right input {
     margin-top: 13px;
     width: 83%;
   }
-  .button_right{
+  .button_right {
     margin-top: 13px;
   }
+
+  .some_content{
+    height: auto;
+  }
+  .some_content_header{
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 2%;
+  }
+  .some_content_left{
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+  }
+  .some_content_left h4{
+    font-size: 27px;
+    padding-top: 28px;
+  }
+  .some_content_left p {
+    padding-top: 9px;
+    line-height: 30px;
+    font-size: 21px;
+  }
+  .some_content_left button{
+    width: 153px;
+    height: 50px;
+    margin-top: 21px;
+  }
+  .some_content_right {
+    width: 100%;
+  }
+  .some_content_right img {
+    height: 216px;
+    margin-top: 8%;
+    padding-left: 0px;
+    margin-bottom: 5%;
+    width: 97%;
+  }
+  .services_main{
+    height: 2000px;
+  }
+  .service_name h4 {
+    font-size: 25px;
+    padding-top: 10%;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+  }
+  .services {
+    display: block;
+    margin-top: 10px;
+    height: auto;
+  }
+  .services_icon {
+    width: 100%;
+    height: 88%;
+  }
+  .services_icon h6{
+    font-size: 43px;
+  }
+  .services_icon h1 {
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 2%;
+  }
+  .services_icon p {
+    padding-top: 13px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .tour{
+    flex-direction: column;
+    display: block;
+  }
+  .tour_left{
+    width: 92%;
+    padding-top: 45px;
+    padding-left: 15px;
+    height: 500px;
+  }
+
+  .tour_left_s1 h4 {
+    left: 17%;
+  }
+  .tour_right {
+    width: 92%;
+    padding-top: 35px;
+    padding-left: 15px;
+    height: 480px;
+    justify-content: normal;
+  }
+  .tour_right_img2 {
+    display: block;
+    height: 49%;
+  }
+  .tour_right_s2 {
+    height: 220px;
+  }
+  .tour_right_europe  {
+    width: 100%;
+  }
+  .tour_right_canada{
+    width: 100%;
+  }
+  .tour_right_s3 {
+  margin-bottom: 11px;
+  height: 220px;
+ }
+ .tour_right_s4{
+  height: 220px;
+ }
+ .experience {
+  height: 720px;
+ }
+ .experience_tour {
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 720px;
+ }
+ .experience_header {
+  padding-top: 25px;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 274px;
+ }
+ .experience_header > h1 {
+  font-size: 28px;
+
+ }
+ .experience_header > p {
+  padding-top: 23px;
+    line-height: 29px;
+    font-size: 18px;
+ }
+ .experience_year p{
+  padding-left: 10px;
+ }
+ .travel{
+  flex-wrap: wrap;
+  width: auto;
+  padding-top: 0px;
+ }
+ .travel_group {
+  width: 123px;
+  height: 198px;
+ }
+ .our_guides h1 {
+  padding-top: 35px;
+  font-size: 29px;
+ }
+ .guides {
+  height: auto;
+  padding-bottom: 40px
+ }
+ .guides1 {
+  display: block;
+  margin-top: 24px;
+  height: auto;
+ }
+
+ .guides2{
+  width: 100%;
+    padding-bottom: 15%;
+    height: auto;
+ }
+ .guides2 img {
+  height: 400px;
+ }
+ .tour_header h4 {
+  padding-top: 42px;
+    font-size: 28px;
+ }
+ .tour_place {
+  margin-top: 27px;
+  display: block;
+ }
+ 
 }
