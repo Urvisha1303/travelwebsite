@@ -1,11 +1,19 @@
 @media only screen and (max-width: 576px) {
   .main_header {
     background-position: center;
-    height: 560px;
+    height: 610px;
   }
   .main {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contract_number {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .logo span {
+      font-size: 29px;
   }
 
   .text {
@@ -15,40 +23,39 @@
     display: block;
     padding-bottom: 0px;
   }
+  .logo {
+    margin-left: 0;
+    font-size: 20px;
+  }
   .text_left {
     width: 100%;
   }
 
   .text_left h3 {
     margin-top: 0;
-    margin-left: 60px;
-    font-size: 35px;
+    margin-left: 87px;
+    font-size: 48px;
     letter-spacing: 2px;
   }
-
-  .logo {
-    margin-left: 0;
-  }
-
   .text_left_from i {
-    padding-left: 32%;
-    font-size: 24px;
+    padding-left: 36%;
+    font-size: 42px;
   }
   .text_left_from h1 {
-    padding-left: 3px;
-    font-size: 23px;
+    padding-left: 7px;
+    font-size: 30px;
   }
   .text_left_dollar {
-    padding-top: 6px;
-    padding-left: 39%;
+    padding-top: 16px;
+    padding-left: 45%;
   }
   .text_left_dollar i {
     font-size: 27px;
   }
   .text_left .text_left_dollar h1 {
-    font-size: 23px;
-    padding-left: 2px;
-    letter-spacing: 0px;
+    font-size: 27px;
+    padding-left: 7px;
+    letter-spacing: 1px;
   }
 
   .slide {
@@ -68,7 +75,7 @@
   }
   .text_search {
     padding-top: 13px;
-    height: 232px;
+    height: 206px;
   }
   .text_search ul {
     font-size: 21px;
@@ -80,12 +87,16 @@
 
   .input_right input {
     margin-top: 13px;
-    width: 83%;
+    width: 43%;
+    height: 50px;
   }
   .button_right {
     margin-top: 13px;
   }
-
+  .button_right button {
+    height: 50px;
+    width: 91%;
+  }
   .some_content {
     height: auto;
   }
@@ -197,7 +208,7 @@
     height: 220px;
   }
   .experience {
-    height: 720px;
+    height: 574px;
   }
   .experience_tour {
     display: block;
@@ -226,6 +237,7 @@
     flex-wrap: wrap;
     width: auto;
     padding-top: 0px;
+    height: 260px;
   }
   .travel_group {
     width: 168px;
@@ -240,20 +252,21 @@
     padding-bottom: 40px;
   }
   .guides1 {
-    padding-left: 13px;
-    width: 93%;
-    display: block;
+    flex-wrap: wrap;
     margin-top: 24px;
     height: auto;
+
   }
 
   .guides2 {
-    width: 100%;
-    padding-bottom: 15%;
+    width: 44%;
+    padding-bottom: 8%;
     height: auto;
+    padding-right: 17px;
+    padding-left: 14px;
   }
   .guides2 img {
-    height: 400px;
+    height: 370px;
   }
   .tour_header h4 {
     padding-top: 42px;
@@ -268,8 +281,12 @@
   .tour_place1 {
     width: 93%;
     height: auto;
-    padding-left: 13px;
+    padding-left: 28px;
+    padding-right: 20px;
     margin-bottom: 20px;
+  }
+  .tour_place1 img {
+    height: 450px;
   }
   .tour_main {
     height: auto;
@@ -316,4 +333,92 @@
   .singapore_price {
     height: 220px;
   }
+  .country_price:hover .country_price_hover {
+    height: 45%;
+    width: 95%;
+    margin-left: 12px;
+  }
+  .client_review_main {
+    height: 1000px;
+  }
+  .client_review_header h4 {
+    padding-top: 70px;
+    font-size: 33px;
+  }
+  .review_main{
+    flex-wrap: wrap;
+    width: 93%;
+  }
+  .review_header {
+    width: 46%;
+    height: 325px;
+    padding-bottom: 93px;
+  }
+  .cr1 {
+    width: 100%;
+    height: 263px;
+  }
+  .cr1 p {
+    color: #ccc;
+    padding: 35px;
+    font-size: 16px;
+  }
+  .inquiry_from_header h4 {
+    font-size: 33px;
+  }
+  .inquiry1 {
+    height: auto;
+    flex-wrap: wrap;
+    padding-bottom: 18px;
+  }
+  .location {
+    width: 50%;
+    
+  }
+  .location p{
+    font-size: 20px;
+  }
+  .inquiry_form {
+    height: auto;
+    display: block;
+  }
+  .inquiry_from_main {
+    width: 100%;
+    height: auto;}
+
+  .inquiry_form1 {
+    width: 97%;
+    height: auto;
+  }
+  .inquiry_form2 {
+    width: 97%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .trip_spot {
+    height: auto;
+  }
+  .trip_spot_header{
+    padding-top: 34px;
+  }
+  .trip_spot_header i{
+    font-size: 37px;
+    font-size: 33px;
+  }
+  .trip_spot_footer {
+    flex-wrap: wrap;
+    height: auto;
+    padding-left: 5%;
+
+  }
+  .tsf {
+    width: 49%;
+    height: auto;
+    padding-bottom: 51px;
+  }
+  .tsf1 {
+    width: 49%;
+    height: auto;
+  }
+
 }
