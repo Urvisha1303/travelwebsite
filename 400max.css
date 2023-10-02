@@ -3,6 +3,9 @@
     background-position: center;
     height: auto;
   }
+  .main_backgroundcolor {
+    height: auto;
+  }
   .main {
     padding-left: 15px;
     padding-right: 15px;
@@ -20,8 +23,16 @@
     flex-direction: column;
   }
   .header {
-    display: block;
+    display: flex;
     padding-bottom: 0px;
+    align-items: baseline;
+  }
+  .bar_menu {
+    display: inline;
+    font-size: 32px;
+  }
+  .menu {
+    display: none;
   }
   .logo {
     margin-left: 0;
@@ -436,7 +447,7 @@
   }
   .inquiry_form2 img {
     height: 400px;
-}
+  }
   .trip_spot {
     height: auto;
   }
@@ -463,5 +474,9 @@
   .tsf1 {
     width: 100%;
     height: auto;
+  }
+  .main .copy_right p {
+    font-size: 14px;
+    text-align: center;
   }
 }

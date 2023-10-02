@@ -10,7 +10,10 @@
   background-repeat: no-repeat;
   height: 798px;
 }
-
+.main_backgroundcolor {
+  background: rgb(0 0 0 / 40%);
+  height: 800px;
+}
 .main {
   padding-left: 14%;
   padding-right: 14%;
@@ -42,7 +45,9 @@
   justify-content: space-between;
   padding-bottom: 32px;
 }
-
+.bar_menu {
+  display: none;
+}
 .menu {
   display: flex;
   align-items: end;

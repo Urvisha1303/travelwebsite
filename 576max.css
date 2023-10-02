@@ -13,7 +13,7 @@
     letter-spacing: 2px;
   }
   .logo span {
-      font-size: 29px;
+    font-size: 29px;
   }
 
   .text {
@@ -22,6 +22,9 @@
   .header {
     display: block;
     padding-bottom: 0px;
+  }
+  .bar_menu {
+    display: none;
   }
   .logo {
     margin-left: 0;
@@ -255,7 +258,6 @@
     flex-wrap: wrap;
     margin-top: 24px;
     height: auto;
-
   }
 
   .guides2 {
@@ -318,7 +320,7 @@
     height: 226px;
     padding-bottom: 15%;
   }
-  .country_price h4{
+  .country_price h4 {
     font-size: 16px;
   }
   .china_price {
@@ -345,7 +347,7 @@
     padding-top: 70px;
     font-size: 33px;
   }
-  .review_main{
+  .review_main {
     flex-wrap: wrap;
     width: 93%;
   }
@@ -373,9 +375,8 @@
   }
   .location {
     width: 50%;
-    
   }
-  .location p{
+  .location p {
     font-size: 20px;
   }
   .inquiry_form {
@@ -384,7 +385,8 @@
   }
   .inquiry_from_main {
     width: 100%;
-    height: auto;}
+    height: auto;
+  }
 
   .inquiry_form1 {
     width: 97%;
@@ -398,10 +400,10 @@
   .trip_spot {
     height: auto;
   }
-  .trip_spot_header{
+  .trip_spot_header {
     padding-top: 34px;
   }
-  .trip_spot_header i{
+  .trip_spot_header i {
     font-size: 37px;
     font-size: 33px;
   }
@@ -409,7 +411,6 @@
     flex-wrap: wrap;
     height: auto;
     padding-left: 5%;
-
   }
   .tsf {
     width: 49%;
@@ -420,5 +421,4 @@
     width: 49%;
     height: auto;
   }
-
 }
